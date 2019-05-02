@@ -505,6 +505,9 @@ h1.color-alt-primary, h2.color-alt-primary, h3.color-alt-primary, h4.color-alt-p
 
 .store-button { height: 64px; }
 
+.policy-list li {list-style: inside; font-family: sans-serif;}
+.policy-body p {font-family: sans-serif;}
+
 /* Custom Changes */
 
 /************************
