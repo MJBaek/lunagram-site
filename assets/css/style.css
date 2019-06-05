@@ -3770,4 +3770,51 @@ label.error { display: none !important; font-size: 13px; margin-top: 5px; color:
 
 @media only screen and (min-height: 1000px) { .io-jasmine .is-transparent + .banner .banner-content { padding-top: 150px; } }
 @media only screen and (min-width: 768px) and (max-width: 1024px) { .io-jasmine .countdown-box .countdown-time:after, .io-lungwort .countdown-box .countdown-time:after { font-size: 24px; } }
+
+.download_btn {
+	-moz-box-shadow:inset 0px 1px 0px 0px #787674;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #787674;
+	box-shadow:inset 0px 1px 0px 0px #787674;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #525052), color-stop(1, #000000) );
+	background:-moz-linear-gradient( center top, #525052 5%, #000000 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#525052', endColorstr='#000000');
+	background-color:#525052;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	text-indent:0;
+	border:1px solid #140f06;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:50px;
+	line-height:50px;
+	width:150px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #9c9b99;
+}
+.download_btn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #000000), color-stop(1, #525052) );
+	background:-moz-linear-gradient( center top, #000000 5%, #525052 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#525052');
+	background-color:#000000;
+}
+.download_btn:active {
+	position:relative;
+	top:1px;
+}
+/* This button was generated using CSSButtonGenerator.com */
 /** END */
