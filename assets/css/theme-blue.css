@@ -503,7 +503,8 @@ h1.color-alt-primary, h2.color-alt-primary, h3.color-alt-primary, h4.color-alt-p
 .footer-list li a { color: #3e59fe; }
 .footer-list li a:hover { color: #866bfe; }
 
-.store-button { height: 64px; }
+.store-button { height: 96px; }
+.store-button-sm { height: 56px; }
 
 .policy-list li {list-style: inside; font-family: sans-serif;}
 .policy-list2 li {list-style-position : inside; list-style: none; font-family: sans-serif;}
@@ -604,7 +605,7 @@ body {
 a {
  font-weight: bold;
  text-decoration: none;
- color: #33CCFF;
+ color: ##007bff;
 }
 
 /*! END */
